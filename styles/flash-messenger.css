@@ -1,0 +1,54 @@
+/* Flash message */
+.flash-message__container {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: top 2s,
+                bottom 2s,
+                left 2s,
+                right 2s;
+    max-width: 600px;
+}
+
+.flash-message__container .flash-message__item {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.30);
+    font-size: 14px;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    background-color: #d2c369;
+}
+
+.flash-message__container .flash-message__item.notice {
+    background-color: #d2c369;
+}
+
+.flash-message__container .flash-message__item.success {
+    background-color: #a4eba3;
+}
+
+.flash-message__container .flash-message__item.error {
+    background-color: #e68e8e;
+}
+
+/* Popup theme */
+.flash-message__container.popup {
+    text-align: center;
+}
+
+.flash-message__container.popup .flash-message__item {
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: #b79e03;
+}
+
+.flash-message__container.popup .flash-message__item.notice {
+    background-color: #b79e03;
+}
+
+.flash-message__container.popup .flash-message__item.error {
+    background-color: #BA3631;
+}
+
+.flash-message__container.popup .flash-message__item.success {
+    background-color: #41ae22;
+}

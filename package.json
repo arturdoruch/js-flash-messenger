@@ -1,0 +1,21 @@
+{
+  "name": "@arturdoruch/flash-messenger",
+  "version": "1.0.0",
+  "description": "Displays flash messages on the screen.",
+  "keywords": ["flash messages", "action messages"],
+  "type": "module",
+  "main": "lib/FlashMessenger.js",
+  "dependencies": {
+    "@arturdoruch/html": "^1.0",
+    "@arturdoruch/util": "^1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturdoruch/js-flash-messenger"
+  },
+  "author": {
+    "name": "Artur Doruch",
+    "email": "arturdoruch@interia.pl"
+  },
+  "license": "MIT"
+}
