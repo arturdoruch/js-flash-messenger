@@ -1,6 +1,6 @@
 {
   "name": "@arturdoruch/flash-messenger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Displays flash messages on the screen.",
   "keywords": ["flash messages", "action messages"],
   "type": "module",
